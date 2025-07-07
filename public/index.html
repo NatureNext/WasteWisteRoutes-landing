@@ -7,6 +7,7 @@
   <!-- estilos -->
   <link rel="stylesheet" href="assets/styles/main.css" />
   <link rel="stylesheet" href="assets/styles/auth.css" />
+  <link rel="stylesheet" href="assets/styles/styles.css" />
 </head>
 <body>
   <!-- HEADER FIJO -->
@@ -17,7 +18,13 @@
         <span class="logo-text">Waste Wise Routes</span>
       </div>
       <nav class="main-nav">
-        <ul>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
+        <ul class="nav-menu">
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#acerca">Acerca de</a></li>
           <li><a href="#colaboradores">Colaboradores</a></li>
